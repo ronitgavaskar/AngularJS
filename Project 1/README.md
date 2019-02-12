@@ -6,4 +6,3 @@ html ng-app
 The ng-model tag allows data binding
 - Data Binding essentially means that the input field will be simultaneously synced to the h1 tag 
 - This is done via the following format {{placeholder}}
-
