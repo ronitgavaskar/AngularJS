@@ -16,3 +16,15 @@ Looks at `ng-if` statements and if it's set to `true` then prints out "Good Morn
 `ng-if` statements that are just like if-else statements in other languages to decide which branch to look at
 
 ---------
+## Project 3:
+Initialized a variable `hour_of_day` to a certain value and depending on time of day, prints out "Good Morning" or "Good Evening"
+if hour_of_day is less than 12: prints Good Morning
+if hour_of_day between 12 and 17: prints Good Afternoon
+if hour_of_day between 17 and 22: prints Good Evening
+If hour_of_day greater than 22: prints Good Night
+
+### Learned:
+`ng-init` to initialize a variable 
+`example: <body ng-init="time=12"> `
+
+---------
