@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+</head>
+<body ng-init="hour_of_day = 14">
+	<h1> Hello World </h1>
+	<p ng-if="hour_of_day < 12">Good Morning</p>
+	<p ng-if="hour_of_day < 17 && hour_of_day > 12">Good Afternoon</p>
+	<p ng-if="hour_of_day > 17 && hour_of_day < 22">Good Evening</p>
+	<p ng-if="hour_of_day > 22">Good Night</p>
+</body>
+</html>
